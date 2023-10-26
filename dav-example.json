@@ -1,0 +1,378 @@
+{
+	"Declaration": {
+		"ID": {
+			"$": "028-2022-10-00003"
+		},
+		"IssueDateTime": {
+			"DateTimeString": "2023-05-31T15:30:45.750",
+			"formatCode": "307"
+		},
+		"AdditionalDocument": {
+			"CategoryCode": {
+				"$": "01"
+			},
+			"IssueDateTime": {
+				"DateTimeString": "2023-05-31T15:30:45.750",
+				"formatCode": "307"
+			},
+			"TypeCode": {
+				"$": "998"
+			}
+		},
+		"Importer": {
+			"Name": {
+				"$": "Importer SAS"
+			},
+			"ID": {
+				"$": "10235689471",
+				"@schemeID": "2"
+			},
+			"Address": [
+				{
+					"CountryCode": {
+						"$": "CO",
+						"@name": "Colombia"
+					}
+				}
+			],
+			"Communication": [
+				{
+					"ID": {
+						"$": "+57 3193678521"
+					},
+					"TypeCode": {
+						"$": "AL"
+					}
+				}
+			],
+			"AdditionalIdentifier": [
+				{
+					"ID": {
+						"$": "02",
+						"@schemeID": "null"
+					}
+				}
+			]
+		},
+		"GoodsShipment": {
+			"Seller": {
+				"Name": {
+					"$": "Seller SAS"
+				},
+				"Address": [
+					{
+						"CountryCode": {
+							"$": "BO",
+							"@name": "Bolivia"
+						}
+					}
+				],
+				"AdditionalIdentifier": {
+					"ID": {
+						"$": "02",
+						"@schemeName": "null"
+					}
+				}
+			},
+			"AdditionalInformation": [
+				{
+					"Content": [
+						{
+							"$": "1"
+						}
+					],
+					"StatementTypeCode": {
+						"$": "INV"
+					}
+				},
+				{
+					"StatementCode": {
+						"$": "02"
+					},
+					"StatementTypeCode": {
+						"$": "ABG"
+					}
+				},
+				{
+					"Content": [
+						{
+							"$": "SI"
+						}
+					],
+					"StatementTypeCode": {
+						"$": "SUR"
+					}
+				}
+				
+			],
+			"Invoice": {
+				"ID": {
+					"$": "321-88754-3345",
+					"@schemeName": "null"
+				},
+				"IssueDateTime": {
+					"DateTimeString": "2023-05-31T15:30:45.750",
+					"formatCode": "307"
+				}
+			},
+			"AdditionalDocument": {
+				"LPCOExemptionCode": {
+					"@schemeID": "!",
+					"$": "01"
+				},
+				"CategoryCode": {
+					"$": "01",
+					"@schemeName": "null"
+				},
+				"TypeCode": "450"
+				
+			},
+			"TransactionNatureCode": {
+				"$": "01",
+				"@name": "null"
+			},
+			"TradeTerms": {
+				"ConditionCode": {
+					"$": "ConditionCode"
+				},
+				"Description": {
+					"$": "null"
+				},
+				"LocationName": {
+					"$": "Puerto aduanero"
+				}
+			},
+			"InvoiceAmount": {
+				"$": 0.1,
+				"@currencyID": "AED"
+			},	
+			"Consignee": {
+				"AdditionalIdentifier": {
+					"ID": {
+						"$": "04",
+						"@schemeName": "null"
+					}
+				},
+				"Name": {
+					"$": "Consignee SAS"
+				},
+				"RoleCode": "IC"
+			},
+			"CustomsValuation": {
+				"ExitToEntryChargeAmount": {
+					"$": 0.1,
+					"@currencyID": "AED"
+				},
+				"FreightChargeAmount": {
+					"$": 0.1,
+					"@currencyID": "AED"
+				},
+				"InsuranceAmount": {
+					"$": 0.1,
+					"@currencyID": "AED"
+				},
+				"ChargeDeduction": [
+					{
+						"ChargesTypeCode": {
+							"$": "String",
+							"@name": "String"
+						},
+						"OtherChargeDeductionAmount": {
+							"$": 0.1,
+							"@currencyID": "AED"
+						}
+					}
+				]
+			},
+			"GovernmentAgencyGoodsItem": {
+				"SequenceNumeric": {
+					"$": 0
+				},
+				"Commodity": {
+					"Classification": {
+						"ID": {
+							"$": "String"
+						}
+					},
+					"Description": {
+						"$": "String",
+						"@languageID": "String"
+					},
+					"ProductCharacteristics": [
+						{
+							"Description": {
+								"$": "String",
+								"@languageID": "String"
+							},
+							"QualifierCode": {
+								"$": "String",
+								"@name": "String"
+							}
+						}
+					],
+					"CategoryCode": {
+						"$": "String",
+						"@name": "String"
+					},
+					"PhysicalStateCode": {
+						"$": "String",
+						"@name": "String"
+					},
+					"ManufactureDateTime": {
+						"DateTimeString": "2023-05-31T15:30:45.750",
+						"formatCode": "307"
+					},
+					"CountQuantity": {
+						"$": 0.1,
+						"@unitCode": "String"
+					},
+					"InvoiceLine": {
+						"ItemChargeAmount": {
+							"$": 0.1,
+							"@currencyID": "AED"
+						}
+					}
+				},
+				"CustomsValuation": {
+					"ExitToEntryChargeAmount": {
+						"$": 0.1,
+						"@currencyID": "AED"
+					},
+					"InsuranceAmount": {
+						"$": 0.1,
+						"@currencyID": "AED"
+					},
+					"MethodCode": {
+						"$": "String",
+						"@name": "String"
+					},
+					"ChargeDeduction": [
+						{
+							"ChargesTypeCode": {
+								"$": "String",
+								"@name": "String"
+							},
+							"OtherChargeDeductionAmount": {
+								"$": 0.1,
+								"@currencyID": "AED"
+							},
+							"CurrencyExchange": [
+								{
+									"CurrencyTypeCode": {
+										"$": "String",
+										"@name": "String"
+									},
+									"RateNumeric": {
+										"$": 0
+									}
+								}
+							]
+						}
+					]
+				},
+				"ProvisionalEstimatedValues": {
+					"ProvisionalEstimatedValue": [
+						{
+							"$": "Stri",
+							"@item": "Stri"
+						}
+					]
+				},
+				"AdditionalDocument": {
+					"ID": {
+						"$": "String",
+						"@schemeID": "!"
+					},
+					"IssueDateTime": {
+						"DateTimeString": "2023-05-31T15:30:45.750",
+						"formatCode": "307"
+					},
+					"TypeCode": {
+						"$": "String",
+						"@name": "String"
+					}
+				},
+				"AdditionalInformation": [
+					{
+						"StatementTypeCode": {
+							"$": "String",
+							"@name": "String"
+						},
+						"Content": {
+							"$": "String",
+							"@languageID": "String"
+						}
+					}
+				],
+				"Origin": {
+					"CountryCode": {
+						"$": "AD",
+						"@name": "String"
+					}
+				},
+				"GoodsLocation": [
+					{
+						"TypeCode": {
+							"$": "String",
+							"@name": "String"
+						},
+						"ID": {
+							"$": "AD"
+						}
+					}
+				]
+			}
+		},
+		"Declarant": {
+			"Name": {
+				"$": "String"
+			},
+			"ID": {
+				"$": "String",
+				"@schemeID": "!"
+			},
+			"Address": {
+				"CityName": {
+					"$": "String",
+					"@languageID": "String"
+				},
+				"Line": {
+					"$": "String",
+					"@languageID": "String"
+				}
+			},
+			"Communication": {
+				"ID": {
+					"$": "String",
+					"@schemeID": "!"
+				},
+				"TypeCode": {
+					"$": "AA",
+					"@name": "String"
+				}
+			},
+			"Contact": {
+				"Name": {
+					"$": "String",
+					"@languageID": "String"
+				},
+				"FunctionCode": {
+					"$": "String",
+					"@name": "String"
+				}
+			},
+			"Authentication": {
+				"AuthorisedPerson": {
+					"Name": {
+						"$": "String",
+						"@languageID": "String"
+					},
+					"ID": {
+						"$": "String",
+						"@schemeID": "!"
+					}
+				}
+			}
+		}
+	}
+}
